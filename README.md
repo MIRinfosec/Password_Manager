@@ -14,10 +14,17 @@ We have provided the python code for generating secrety keys in the main reposit
 
 Upon initial startup, the user will be prompted to create a master password that they will use for each sequential use of the Pass123 application.
 This master password cannot be changed and should be something that only the user has access to. 
-Should someone attempt to change the master password file in order to bypass authentication, the application will not run because the code searches for a specific string within the master password file. The code also requires that the password file is not encrypted in order to allow the the master password to be created. Manipulation of either text files will not provide any credentials in clear text or allow the application to run.
+Should someone attempt to change the master password file in order to bypass authentication, the application will not run because the code searches for a specific string within the master password file. The code also requires that the password file is not encrypted in order to allow the master password to be created. Manipulation of either text files will not provide any credentials in clear text or allow the application to run.
 
 It can be adapted to run on Mac and Linux OS by changing the os.system commands to the OS equivalent for your specific situation.
 Pyinstaller can be used to easily compile the code into an executable format.
+
+A few items to take note of:
+In the python code, the password file is referenced as password.txt and the master password file is referenced as defaultpass.txt
+If you would like to adapt this for yourself or other's, we strongly recommend hiding the password and master password files so as not to allow the user to manually manipulate them. The code already accounts for the hiding of the files so this will not cause any disruptions or unforseen problems. In windows that can easily be done with: attrib +h <filename> to hide the file and attrib -h <filename> to unhide the file for application access.
+This application was created with a limited amount of time and will continue to be refined in order to improve password management, security, and usability - revisions will be updated to this Password_Manager repository.
+  
+ 
 
 
 
