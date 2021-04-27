@@ -26,9 +26,13 @@ If you would like to adapt this for yourself or other's, we strongly recommend h
 This application was created with a limited amount of time and will continue to be refined in order to improve password management, security, and usability - revisions will be updated to this Password_Manager repository.
   
 In order to provide a user with a usable product you would need to include:
+
 1 - A secret key generated using the supplied key generator code
+
 2 - An executable version of the Pass123 code (can use pyinstaller to compile code and create .exe)
+
 3 - An empty txt file with the name password.txt (preferrably hidden)
+
 4 - A txt file containing the string "____default____password____" with the name defaultpass.txt (preferrably hidden)
 
 
