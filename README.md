@@ -21,7 +21,7 @@ Pyinstaller can be used to easily compile the code into an executable format.
 
 A few items to take note of:
 In the python code, the password file is referenced as password.txt and the master password file is referenced as defaultpass.txt
-If you would like to adapt this for yourself or other's, we strongly recommend hiding the password and master password files so as not to allow the user to manually manipulate them. The code already accounts for the hiding of the files so this will not cause any disruptions or unforseen problems. In windows that can easily be done with: attrib +h <filename> to hide the file and attrib -h <filename> to unhide the file for application access.
+If you would like to adapt this for yourself or other's, we strongly recommend hiding the password and master password files so as not to allow the user to manually manipulate them. The code already accounts for the hiding of the files so this will not cause any disruptions or unforseen problems. In windows that can easily be done with: attrib +h "filename" to hide the file and attrib -h "filename" to unhide the file for application access.
 This application was created with a limited amount of time and will continue to be refined in order to improve password management, security, and usability - revisions will be updated to this Password_Manager repository.
   
  
