@@ -1,5 +1,5 @@
 # Password_Manager
-Pass123: Application for storing, viewing, and generating secure passwords stored on a USB drive
+Pass123: Application for storing, viewing, and generating secure passwords
 
 This application implements quite a few layers of security to protect the user's stored credentials.
 We strongly recommend following all of the guidelines referenced in the available User Manual.
