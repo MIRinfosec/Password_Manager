@@ -33,7 +33,7 @@ In order to provide a user with a usable product you would need to include:
 
 3 - An empty txt file with the name password.txt (preferrably hidden)
 
-4 - A txt file containing the string "____default____password____" with the name defaultpass.txt (preferrably hidden)
+4 - A txt file containing the string ____default____password____ with the name defaultpass.txt (preferrably hidden)
 
 
 
