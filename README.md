@@ -7,8 +7,8 @@ We strongly recommend following all of the guidelines referenced in the availabl
 This application was written in python and intended for the Microsoft Windows OS.
 Pass123 implements multi factor authentication through the use of a master password as well as a secret key.
 The key is intended to be separated from the USB drive to secure the stored passwords from being decrypted should someone get ahold of the drive.
-The key is generated and used to decrypt/encrypt via python's Fernet cryptography module
-If this key is deleted or misplaced, none of the contained passwords will be accessible
+The key is generated and used to decrypt/encrypt via python's Fernet cryptography module.
+If this key is deleted or misplaced, none of the contained passwords will be accessible.
 
 We have provided the python code for generating secrety keys in the main repository
 
@@ -21,7 +21,7 @@ Pyinstaller can be used to easily compile the code into an executable format.
 
 A few items to take note of:
 
-In the python code, the password file is referenced as password.txt and the master password file is referenced as defaultpass.txt
+In the python code, the password file is referenced as password.txt and the master password file is referenced as defaultpass.txt.
 If you would like to adapt this for yourself or other's, we strongly recommend hiding the password and master password files so as not to allow the user to manually manipulate them. The code already accounts for the hiding of the files so this will not cause any disruptions or unforseen problems. In windows that can easily be done with: attrib +h "filename" to hide the file and attrib -h "filename" to unhide the file for application access.
 This application was created with a limited amount of time and will continue to be refined in order to improve password management, security, and usability - revisions will be updated to this Password_Manager repository.
   
