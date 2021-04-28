@@ -1,6 +1,8 @@
 # Password_Manager
 Pass123: Application for storing, viewing, and generating secure passwords
 
+Here is the link to a video presentation of the application: https://www.youtube.com/watch?v=0xvSFtdXAoA
+
 This application implements quite a few layers of security to protect the user's stored credentials.
 We strongly recommend following all of the guidelines referenced in the available User Manual.
 
