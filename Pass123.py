@@ -424,7 +424,7 @@ def main_app():
                     f = open("encryptionTest.txt", "r")
                     password_string = f.read()
                     f.close()
-                    if "gAAAAABg" not in password_string:
+                    if "gAAAAAB" not in password_string:
                         encrypt()
                     os.system("del encryptionTest.txt")
                     #Display the main terminal window of the application with the program features
