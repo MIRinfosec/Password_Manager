@@ -113,7 +113,7 @@ def passwordgenerator():
         ans_3 = input(Fore.LIGHTRED_EX + '**ERROR**: This word has been previously used: ' + Fore.LIGHTYELLOW_EX)
     
     #Create a list of lowercase letters
-    alphabet = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+    alphabet = list(string.ascii_lowercase)
     string1 = ''
     string2 = ''
     string3 = ''
